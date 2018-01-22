@@ -321,7 +321,7 @@ header p {
   margin: auto;
 }
 .jumbotron {
-  background: url('assets/bible.jpg') no-repeat top center;
+  background: url('../assets/bible.jpg') no-repeat top center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -335,7 +335,7 @@ header p {
   overflow: hidden;
 }
 #about-jumbotron {
-  background: url('assets/sunset.jpg') no-repeat bottom left;
+  background: url('../assets/sunset.jpg') no-repeat bottom left;
   background-size: cover;
   z-index: 1;
   margin-bottom: 150px;
@@ -343,7 +343,7 @@ header p {
   animation-duration: 2s;
 }
 #diary-jumbotron {
-  background: url('assets/landing-nonblur.jpg') no-repeat center center;
+  background: url('../assets/landing-nonblur.jpg') no-repeat center center;
   background-size: cover;
 }
 #diary-container-one h2 {

@@ -12,26 +12,26 @@ $('#africa-map-phone').hide();
 
 // hyperlinks
 $('#logo').on('click', () => {
-   		window.location.href='timindex.html';
+   		window.location.href='index.html';
     });
 $('#logo-icon').on('click', () => {
-   		window.location.href='timindex.html';
+   		window.location.href='index.html';
     });
     
 $('.tablink').eq(2).on('click', () => {
-   		window.location.href="timdiary.html#gallery";
+   		window.location.href="diary.html#gallery";
     });  
  	
 $('.tablink').eq(1).on('click', () => {
-   		window.location.href="timdiary.html#past";
+   		window.location.href="diary.html#past";
     });  
         
 $('.diary-link').on('click', () => {
-   		window.location.href="timdiary.html";
+   		window.location.href="diary.html";
     }); 
     
 $('#notice-board span').on('click', () => {
-   		window.location.href="timdiary.html#events-upcoming";
+   		window.location.href="diary.html#events-upcoming";
     }); 
 
 //menu bars

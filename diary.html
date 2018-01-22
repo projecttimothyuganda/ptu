@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Project Timothy Uganda</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project Timothy Uganda's Diary: find out about upcoming and past conferences and events.">
+  <meta property="og:title" content="Project Timothy Uganda" />
+  <meta property="og:description" content="Project Timothy Uganda's Diary: find out about upcoming and past conferences and events." />
+	<meta property="og:image" content="media/ogimg.jpg" />
+	<meta property="og:url" content="http://www.projecttimothyuganda.co.uk/diary.html" />
+	<meta name="twitter:title" content="Project Timothy Uganda" />
+	<meta name="twitter:description" content="Project Timothy Uganda's Diary: find out about upcoming and past conferences and events." />
+	<meta name="twitter:image" content="media/ogimg.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' type='text/css' href='css/main.css' />
+  <link rel="icon" type="image/png" href="media/favicon.png"/>
+</head>
+
+<body id="background">
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8963;</button>
+  <!-- Navigation -->
+  <header class="container">
+    <div class="row"><h1 id="logo" class="col-sm-4">Project Timothy Uganda</h1>
+    <img height="40px" width="40px" id="logo-icon" src="media/ptu-icon.svg">
+      <nav id="main-nav" class="col-sm-8 text-right">
+        <div class="menu-container" onclick="changeMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <header id="hidden-nav" class="container">
+    <div id="nav-wrapper" class="row"><h1 class=""></h1>
+      <nav id="nav">
+       <span><a href="timindex.html">Home</a></span>
+       <span><a href="timabout.html">About</a></span>
+       <span><a class="diary-link">Diary</a></span>
+       <span><a href="timabout.html#team-contact">Contact</a></span>
+      </nav>
+    </div>
+  </header>
+  <header id="notice-board" class="container">
+  		<span id="countdown"></span>
+  </header>
+   
+   <section id="diary-jumbotron" class="jumbotron fade-scroll">
+   <div class="container">
+      <div id="diary-container-one" class="row text-center">
+        <h2>Project Timothy Uganda Conference Diary</h2>
+      </div>
+    </div>
+  </section>
+  <section id="event-tabs">
+ 	<div id="tab-div">
+ 		<div id="future" class="tabcontent">
+ 			<div id="diary-upcoming-div" class="upcoming-text">
+  				<ul id="events-upcoming">
+    			</ul>
+    			<p class="notice" style="margin-top:20px;">There are currently no published upcoming events.</p>	
+  			</div>
+		</div>
+		<div id="past" class="tabcontent">
+  			<div id="tab-past" class="past-text">
+    			<ul id="events-past">
+    			</ul>
+  			</div>
+		</div>
+		
+		
+<div style="width: 90%; margin: auto;" id="gallery" class="tabcontent">	
+	<div class="row"> 
+	  <h2 style="margin-left: 30px;">Gallery</h2>
+  	  <div class="column gallery-column">
+  	  </div>
+      <div class="column-two gallery-column">
+    </div>  
+</div>	
+  		</div>
+		<div id="tab-align">
+ 		<button class="tablink" onclick="openEvent('future', this, '#337ab7')" id="defaultOpen">Upcoming</button>
+		<button class="tablink" onclick="openEvent('past', this, '#337ab7')">Past		</button>
+		<button class="tablink" onclick="openEvent('gallery', this, '#337ab7')">Gallery</button>
+		</div>
+	</div>
+ </section>
+ <br/>
+ <br/>
+  <section id="diary-upcoming" class="">
+  <div id="diary-upcoming-div" class="upcoming-text">
+  	<!--<ul id="events-upcoming">
+    </ul>
+    <p class="notice" style="margin-top:20px;">There are currently no published upcoming events.</p>	-->
+  </div>
+  </section>
+  
+  
+  
+  <section id="diary-past" class="">
+  <div id="" class="past-text">
+    <!--<ul id="events-past">
+    </ul>-->
+    <h1 style="margin=auto">If you want to attend or need further details...</h1>
+  </div>
+  </section>
+  
+  
+  
+  <!--contacts-->  
+  
+  <section id="team-contact" "class="container">
+    <div id="team-contact-wrapper" class="row">
+    <h1>Get in Touch...</h1>
+    <figure class="col-sm-3 fade-scroll">
+      <h3>Gerald Tanner</h3>
+      <a href="mailto:projtimug@gmail.com"><p class="details">@: projtimug@gmail.com</p></a>
+      <p class="details">Tel: +44 114 438 7161</p>
+      <p class="details">SMS: +44 7851252578</p>
+      </figure>
+      <figure class="col-sm-3 fade-scroll">
+        <h3>Michael Ejok Edeke</h3>
+        <a href="mailto:michaeltftj@gmail.com"><p class="details">@: michaeltftj@gmail.com</p></a>
+        <p class="details">Tel: +256782630100</p>
+      </figure>
+      <figure class="col-sm-3 fade-scroll">
+        <h3>Emmanuel Okwalinga</h3>
+        <a href="mailto:eoja2011@gmail.com"><p class="details">@: eoja2011@gmail.com</p></a>
+        <p class="details">Tel: +256774015946</p>
+      </figure>
+      <figure class="col-sm-3 fade-scroll">
+        <h3>Emmanuel Magambo</h3>
+        <a href="mailto:emmagambo@yahoo.com"><p class="details">@: emmagambo@yahoo.com</p></a>
+        <p class="details">Tel: +256782772128</p>
+      </figure>
+    </div> 
+  </section>
+  
+ <footer class="container">
+    <div class="row">
+      <p id="copyright" class="col-sm-4"></p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1 social"><a href="https://www.facebook.com/projecttimothyuganda"><img src="facebook.svg"/></a></li>
+        <li class="jc-icon col-sm-1 social"><a href="https://doulosiyxy.github.io/portfolio/" target="_blank" ><img src="media/jc-icon-two.svg"/></a></li> 
+      </ul>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+  <script src='js/main.js'></script> 
+  <script src="js/format-google-calendar.min.js"></script>
+  <script src="js/format-google-calendar.js"></script>
+   <script>
+   formatGoogleCalendar.init({
+        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/4763d3r16hspfvtar25d8f0v9o@group.calendar.google.com/events?key=AIzaSyBJOz-oJyA3OXMZ-3gf0clgUROQMB7xTOE',
+        past: true,
+        upcoming: true,
+        sameDayTimes: true,
+        pastTopN: -1,
+        upcomingTopN: -1,
+        recurringEvents: true,
+        timeZone: "",
+        itemsTagName: 'li',
+        upcomingSelector: '#events-upcoming',
+        pastSelector: '#events-past',
+        upcomingHeading: '<h2>Upcoming Events</h2>',
+        pastHeading: '<h2>Past Events</h2>',
+        format: ['*summary*', ' on ', '*date*', ' in ', '*location*', ': ', '*description*'],
+        timeMin: '2012-06-03T10:00:00-07:00',
+        timeMax: '2030-06-03T10:00:00-07:00',
+        orderBy: 'startTime'
+      });
+   </script>
+   
+   <script>window.onscroll = function() {scrollFunction()};
+	function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.getElementById("myBtn").style.display = "block";
+    } else if (document.body.scrollTop < 100 || document.documentElement.scrollTop < 100){
+        document.getElementById("myBtn").style.display = "none";
+    }
+	}
+
+// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}</script>
+</body>
+
+</html>

@@ -217,8 +217,8 @@ header p {
 
 
 .line1 {
-	width: 400px;
-	right: 200px;
+  width: 400px;
+  right: 200px;
     height: 3px;
     background-color:darkSlateGrey;
     position: relative;
@@ -267,8 +267,8 @@ header p {
 
 
 .line1-phone {
-	width: 100px;
-	right: -150px;
+  width: 100px;
+  right: -150px;
     height: 2px;
     background-color:darkSlateGrey;
     position: relative;
@@ -378,7 +378,7 @@ header p {
 }
 
 .jumbotron {
-  background: url('media/bible.jpg') no-repeat top center;
+  background: url('assets/bible.jpg') no-repeat top center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -394,7 +394,7 @@ header p {
 
 #about-jumbotron {
 
-  background: url('media/sunset.jpg') no-repeat bottom left;
+  background: url('assets/sunset.jpg') no-repeat bottom left;
   background-size: cover;
   z-index: 1;
   margin-bottom: 150px;
@@ -403,7 +403,7 @@ header p {
 }
 
 #diary-jumbotron {
-  background: url('media/landing-nonblur.jpg') no-repeat center center;
+  background: url('assets/landing-nonblur.jpg') no-repeat center center;
   background-size: cover;
 }
 

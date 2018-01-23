@@ -409,11 +409,11 @@ figure {
   margin: 0 auto 15px;
 }
 #about-text-two {
-  color: white;
+  color: black;
   padding: 50px 0;
-  background: #c2c2c2;
-  box-shadow: 0px 1px 40px #8d8d8d;
-  text-shadow: 2px 0px 5px rgba(0,0,0,.2);
+  background: white;
+  /*box-shadow: 0px 1px 40px #8d8d8d;
+  text-shadow: 2px 0px 5px rgba(0,0,0,.2);*/
   text-align: justify;
 }
 #about-text-three {

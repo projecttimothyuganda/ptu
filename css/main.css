@@ -782,7 +782,7 @@ footer li img {
   padding-top: 10px;
 }
 @media only screen and (max-width: 767px) {
-  .upcoming-text ul li:first-child {
+  .upcoming-text ul li {
     font-weight: 400;
     font-size: 20px;
     color: darkslategrey;

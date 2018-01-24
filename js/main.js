@@ -31,7 +31,7 @@ $('.diary-link').on('click', () => {
     }); 
     
 $('#notice-board span').on('click', () => {
-   		window.location.href="diary.html#events-tabs";
+   		window.location.href="diary.html#future";
     }); 
 
 //menu bars

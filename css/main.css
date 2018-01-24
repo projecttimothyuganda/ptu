@@ -159,11 +159,13 @@ header p {
 #logo-icon {
   display: none;
   margin-left: 30px;
-  animation-name: header;
-  animation-duration: 2s;
 }
 #logo-icon:hover {
   cursor: pointer;
+}
+header div div {
+  animation-name: header;
+  animation-duration: 2s;
 }
 #notice-board {
  background-color: rgba(0,0,0,.9);

@@ -335,7 +335,7 @@ header p {
   overflow: hidden;
 }
 #about-jumbotron {
-  background: url('../assets/sunset.jpg') no-repeat bottom left;
+  background: url('../assets/uganda-banner.jpg') no-repeat center center;
   background-size: cover;
   z-index: 1;
   margin-bottom: 150px;

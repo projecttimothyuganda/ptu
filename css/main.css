@@ -159,6 +159,8 @@ header p {
 #logo-icon {
   display: none;
   margin-left: 30px;
+  animation-name: header;
+  animation-duration: 2s;
 }
 #logo-icon:hover {
   cursor: pointer;

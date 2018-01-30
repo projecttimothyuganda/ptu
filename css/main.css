@@ -363,6 +363,10 @@ header div div {
   margin-top: 0px;
   font-family: georgia, serif;
 }
+#mini-biog-wrapper{
+  max-height: 300px;
+  overflow: scroll;
+}
 #biog p {
   margin-bottom: 30px;
 }

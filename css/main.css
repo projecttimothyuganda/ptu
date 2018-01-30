@@ -366,7 +366,16 @@ header div div {
 #mini-biog-wrapper{
   max-height: 300px;
   overflow: scroll;
-  padding: 5px;
+  overflow-x: hidden;
+  padding: 10px;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
 }
 #biog p {
   margin-bottom: 30px;

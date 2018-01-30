@@ -371,10 +371,10 @@ header div div {
   box-shadow: inset 0px 1px 40px #8d8d8d;
 }
 #mini-biog-wrapper::-webkit-scrollbar-thumb {
-    background: #337ab7;
+    background-color: #337ab7;
 }
 #mini-biog-wrapper::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
+    width: 5px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 #mini-biog-wrapper::scrollbar {

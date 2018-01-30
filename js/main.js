@@ -1,4 +1,6 @@
 //presets
+$('#logo').hide();
+$('#logo-icon').show();
 $(window).on('scroll', function() {
 var docTop = $(document).scrollTop();
 if (docTop === 0) {	

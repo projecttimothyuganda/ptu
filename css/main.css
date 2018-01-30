@@ -363,12 +363,12 @@ header div div {
   margin-top: 0px;
   font-family: georgia, serif;
 }
-#mini-biog-wrapper{
+#mini-biog-wrapper {
   max-height: 300px;
   overflow: scroll;
   overflow-x: hidden;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  box-shadow: 0 0 10px rgba(0,0,0,.5) inset;
 }
 #mini-biog-wrapper::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */

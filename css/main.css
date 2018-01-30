@@ -372,7 +372,8 @@ header div div {
 }
 #mini-biog-wrapper::-webkit-scrollbar-thumb {
     background-color: darkslategrey;
-    height: 10px;
+    border-radius: 5px;
+    width: 5px;
 }
 #mini-biog-wrapper::-webkit-scrollbar {
     width: 5px;  /* remove scrollbar space */

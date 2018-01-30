@@ -368,6 +368,7 @@ header div div {
   overflow: scroll;
   overflow-x: hidden;
   padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 #mini-biog-wrapper::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */

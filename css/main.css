@@ -364,12 +364,11 @@ header div div {
   font-family: georgia, serif;
 }
 #mini-biog-wrapper {
-  text-align: left;
   max-height: 300px;
   overflow: scroll;
   overflow-x: hidden;
   padding: 10px;
-  box-shadow: inset 0px 1px 40px #8d8d8d;
+  /*box-shadow: inset 0px 1px 40px #8d8d8d;*/
 }
 #mini-biog-wrapper::-webkit-scrollbar-thumb {
     background-color: darkslategrey;

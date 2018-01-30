@@ -371,7 +371,8 @@ header div div {
   box-shadow: inset 0px 1px 40px #8d8d8d;
 }
 #mini-biog-wrapper::-webkit-scrollbar-thumb {
-    background-color: #337ab7;
+    background-color: darkslategrey;
+    height: 10px;
 }
 #mini-biog-wrapper::-webkit-scrollbar {
     width: 5px;  /* remove scrollbar space */

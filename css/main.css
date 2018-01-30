@@ -366,6 +366,7 @@ header div div {
 #mini-biog-wrapper{
   max-height: 300px;
   overflow: scroll;
+  padding: 5px;
 }
 #biog p {
   margin-bottom: 30px;

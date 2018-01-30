@@ -381,9 +381,9 @@ header div div {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
-.container::-webkit-scrollbar { 
+/*.container::-webkit-scrollbar { 
     display: none;  // Safari and Chrome
-}
+}*/
 #biog p {
   margin-bottom: 30px;
 }

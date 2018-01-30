@@ -368,7 +368,7 @@ header div div {
   overflow: scroll;
   overflow-x: hidden;
   padding: 10px;
-  background-color: white;
+  background: white;
   box-shadow: inset 0px 1px 40px #8d8d8d;
 }
 #mini-biog-wrapper::-webkit-scrollbar-thumb {

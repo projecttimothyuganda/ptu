@@ -568,7 +568,7 @@ window.formatGoogleCalendar = function () {
             hour = date[3],
             minute = date[4];
 	    
-	 //James Crooke Additions to display time in local time begin    
+	 /*//James Crooke Additions to display time in local time begin    
         var now = new Date(); //grabs local date
         var timeDifferenceMinutes = now.getTimezoneOffset(); // gets difference between local time and UTC(GMT) in minutes 
         var timeDifferenceHours = timeDifferenceMinutes / 60; // converts minutes to hours
@@ -577,7 +577,7 @@ window.formatGoogleCalendar = function () {
         if (timeDifferenceHours != 0) hour = hour + timeDifferenceHours; // this works, but don't know why because difference is sometimes negative.
         //if (posOrNeg === -1) hour = hour + timeDifferenceHours; // subtracts the difference if time is ahead of GMT
         //if (posOrNeg === 1) hour = hour + timeDifferenceHours; // adds the difference if time is behind of GMT
-        //James Crooke Additions to display time in local time end    
+        //James Crooke Additions to display time in local time end   */ 
 
         // Handle afternoon.
         if (hour >= 12) {

@@ -578,7 +578,7 @@ window.formatGoogleCalendar = function () {
         //if (posOrNeg === -1) hour = hour + timeDifferenceHours; // subtracts the difference if time is ahead of GMT
         //if (posOrNeg === 1) hour = hour + timeDifferenceHours; // adds the difference if time is behind of GMT
         //James Crooke Additions to display time in local time end   
-
+        console.log(timeDifferenceHours);
         // Handle afternoon.
         if (hour >= 12) {
             period = 'PM';

@@ -390,7 +390,7 @@ header div div {
   margin-bottom: 30px;
 }
 #team {
-  background: #50abcc;
+  background-color: #50abcc;
   width: 100%;
 }
 #team-wrapper, #team-contact-wrapper {
@@ -474,7 +474,7 @@ figure {
 }
 #team {
   margin-top: 50px;
-  background: #c2c2c2;
+  background: #50abcc;
 }
 #team, #team-contact {
   padding: 50px 0;

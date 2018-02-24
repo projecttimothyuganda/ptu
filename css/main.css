@@ -390,7 +390,7 @@ header div div {
   margin-bottom: 30px;
 }
 #team {
-  background-color: #50abcc;
+  background: #50abcc;
   width: 100%;
 }
 #team-wrapper, #team-contact-wrapper {

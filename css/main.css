@@ -504,6 +504,7 @@ figure img {
   margin: 30px auto;
   display: block;
   filter: grayscale(100%);
+  border: 2px solid black;
 }
 .u {
   filter: invert(0);
